@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1;
+}
+
+img {
+    /*default all images to 100% */
+    width: 100%;
+}
+
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#job {
+    color: green;
+}
+
+/*Header Style Start*/
+header {
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+}
+.titles {
+    text-align: center;
+    font-size: 2.5rem;
+    color: green;
+}
+#addr, #email, #phone {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+/*Header Style End*/
+
+/*Main Style Start*/
+main {
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+}
+
+section 
+.headings {
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+ul {
+    padding-top: 0.5rem;
+    
+}
+
+#job, #company {
+    display: inline-block;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.dates {
+    padding-top: 1.5rem;
+}
+
+#company {
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+}
+
+h3, h4, p, li  {
+    color: rgb(66, 66, 66);
+    
+}
+
+li::before {
+    color: green;
+}
+
+/*Main Style End*/
+
+/*Footer Style Start*/
+nav {
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+/*Footer Style End*/
